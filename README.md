@@ -1,21 +1,31 @@
 # Project-Template
 A basic structured workflow for Data Science Projects
 
+
 The zip file is a folder to be placed on your DESKTOP. 
+
 
 The zip file contains the following:
 
+
 The purpose of this template is to allow for clarity and structure for any project, regardless of the scope and scale. Feel free to adjust the template with long term choices.
 
+
 **DATA FOLDER**
+
 Currently contains nothing, should be 
 for data files
 
 **FORKED REPO**
+
 Only do this if your file is on the Desktop
-Otherwise you might get nested instances, which are awful. 
-Fork the repo from the Project first, then download it to this file location. 
+
+Otherwise you might get nested. NO NESTS.
+
+Fork the repo from the Project first, then download it to this file location.
+
 This will help keep your repo updated as well as the teams, and easier to navigate to.
+
 
 **MODEL**
 This should be where the model development happens. 
