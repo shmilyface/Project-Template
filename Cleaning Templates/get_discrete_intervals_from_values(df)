@@ -1,0 +1,13 @@
+def get_discrete_intervals_from_values(df):
+    '''
+    AIM    -> get discrete intervals by binning values to a range
+     
+    INPUT  -> df
+    
+    OUTPUT -> updated df with discrete intervals based on numerical values 
+    ------
+    '''
+    df['rating'] = pd.cut(df['rating'], 
+                          bins=[-1,3,5,7,10], 
+                          labels=['bad','moderate','good','strong'])
+    return df
