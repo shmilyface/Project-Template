@@ -1,0 +1,12 @@
+def rename_col(df): 
+    '''
+    AIM    -> rename column names
+    
+    INPUT  -> df
+    
+    OUTPUT -> updated df with new column names 
+    ------
+    '''
+    df.rename(index=str, columns={'col_1': 'new_col_1',
+                                  'col_2': 'new_col_1'}, inplace=True)
+    return df
