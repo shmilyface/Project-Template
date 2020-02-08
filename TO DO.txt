@@ -6,3 +6,5 @@
 [] Lure test subjects
 [] See how they use with project builds.
 [] Iterate
+
+[] Structure Changes: How does it make sense to structure them? 
