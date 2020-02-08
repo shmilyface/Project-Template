@@ -14,11 +14,21 @@
 def concept(x,y):
   #insert code here
     return solution
+pandas-profiling
+scatter matrix
+LinAlg expressions as code
+Calculus expressions as code
+
     
 -Suggested Snippets-
 Image display
 word count
+tokenizing
+one hot encoding
+
 visualizations
+xtrain, ytrain
+
 
 vvv Where can I put this? vvv
 
