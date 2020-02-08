@@ -6,3 +6,4 @@ GOALS:
 [] Link to resources when troubleshooting. 
 [] Update regularly
 
+Source:https://towardsdatascience.com/my-compilation-of-simple-yet-practical-data-cleaning-codes-d692ec20dca8
