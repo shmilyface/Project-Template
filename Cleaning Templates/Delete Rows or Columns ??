@@ -1,0 +1,12 @@
+Deleting rows and columns that don’t fit your analysis is a critical part of data modelling. The df.drop()functions is used to drop rows or columns in a pandas dataframe.  
+
+df.drop('Salary', axis=1)
+will drop a column named “salary”. Axis=1 indicates that we are referring to a column and not a row. 
+
+You can also drop columns based on conditions
+
+df.drop[df.name != 'Fia']
+will drop a row where the value of ‘name’ is not ‘Fia’
+
+Example Tutorial:
+Check out data cleaning tutorial to see an example of how to drop row and columns in a pandas datafame. 
