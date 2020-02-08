@@ -8,3 +8,35 @@
 [] Iterate
 
 [] Structure Changes: How does it make sense to structure them? 
+
+[] Create a template for how to make code snippets
+
+def concept(x,y):
+  #insert code here
+    return solution
+    
+-Suggested Snippets-
+Image display
+word count
+visualizations
+
+vvv Where can I put this? vvv
+
+Naming Conventions - make them similar for projects when possible
+        df(1,2,3,4) = df1, df2, df3 however many datasets we need
+        df_copy (copy)
+        df_text (for text analysis)
+        df_nn (neural network)
+        
+        ffm = fast first model and subseq. exploration models (1,2,3,4 to show which model you're on)
+        model = final model
+        nn_model = neural network model
+        
+        FUNCTIONS:
+          if it affects the df, put df_ in front. 
+          if it affects the model, put ffm_ in front.
+          etc.
+        
+
+
+        
