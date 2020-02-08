@@ -1,0 +1,11 @@
+def remove_nan_values(df):
+    '''
+    AIM    -> remove NaN values of a particular column and output the whole dataframe
+     
+    INPUT  -> df
+    
+    OUTPUT -> updated df without NaN values for a particular column 
+    ------
+    '''
+    df = df[df['col_1'].notnull()]
+    return df
