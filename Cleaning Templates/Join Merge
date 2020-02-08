@@ -1,0 +1,16 @@
+In pretty much all your data science projects, your data will be present across multiple files. Sometimes you will have columns from different files to aggregate.
+
+Python provides a very powerful library pandas that has functions to join, concatenate and merge multiple files. The following are possible with a pandas dataframe - join dataframes along rows, join dataframes along columns, merge dataframes along a column, merge with outer join, merge with inner join, merge with right join, merge with left join, merge while adding a suffx to duplicate column names, merge based on indexes etc. 
+
+df_new = pd.concat([df_a, df_b])
+merges 2 dataframes df_a and df_b along the rows
+
+df = pd.concat([df_a, df_b], axis=1)
+merges 2 dataframes df_a and df_b along the columns
+
+The pd.concat() basically just appends one dataframe to the other either along the rows or the columns.   
+
+The difference between a merge and a join is that a merge simply combines dataframes and includes all the rows while a join combines dataframes based on a matching key value - for example you might want to combine dataframe rows based on a employee id match. By defaulty all joins are also inner joins. An outer join will return everything an inner join returns along with all unmatched rows in the dataframe. 
+
+Example Tutorial:
+Check out data cleaning tutorial to see an example of how to Join and Merge a pandas datafame. 
