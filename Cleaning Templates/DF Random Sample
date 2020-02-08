@@ -1,0 +1,21 @@
+TO DO: put into function
+
+print(df.take(np.random.permutation(len(df))[:2]))
+
+
+Add these to the commit comments below
+
+Title: Randomly sample a pandas dataframe
+
+Description: 
+The first step in data cleaning is to quickly get an idea of what is inside your dataset. Randomly picking a few rows to view will help you achieve that. 
+
+print(df.take(np.random.permutation(len(df))[:2]))
+
+this command uses 3 functions df.take (), np.random.permutation() and len() to print 2 randomly selected rows from the dataframe df(). 
+
+len() just measures the length of the dataframe which serves as an input to np.random.permutation(). The value 2 indicates that any 2 rows can be picked up at random by the function. 
+
+df.take() selects rows from the dataframe. If you did not want to randomly pick rows, then you can just pass the number of rows as a parameter to df.take().  
+
+Example: http://www.dezyre.com/recipes/randomly-sample-pandas-dataframe
