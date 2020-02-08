@@ -1,0 +1,11 @@
+def list_comprehension(df):
+    '''
+    AIM    -> IF ELSE for the list comprehension 
+    
+    INPUT  -> df 
+    
+    OUTPUT -> List 
+    ------
+    '''
+    compute_list = [df['col_1'][i] if df['col_1'][i] > 0 else -1 for i in range(len(df))]
+    return compute_list
