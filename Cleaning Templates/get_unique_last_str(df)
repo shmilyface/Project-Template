@@ -1,0 +1,11 @@
+def get_unique_last_str(df):
+    '''
+    AIM    -> get unique last str for a column
+     
+    INPUT  -> df
+    
+    OUTPUT -> updated df based on the unique last strings in a column 
+    ------
+    '''
+    df = df[df.index.isin(df['col_1'].drop_duplicates(keep='last').index)].reset_index(drop=True)
+    return df
