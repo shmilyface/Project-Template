@@ -14,9 +14,6 @@ The zip file is a folder to be placed on your DESKTOP.
 The zip file contains the following:
 
 
-The purpose of this template is to allow for clarity and structure for any project, regardless of the scope and scale. Feel free to adjust the template with as your personal workflow develops.
-
-
 **DATA FOLDER**
 
 Currently contains nothing, should be 
