@@ -8,3 +8,6 @@ GOALS:
 
 Source:https://towardsdatascience.com/my-compilation-of-simple-yet-practical-data-cleaning-codes-d692ec20dca8
 https://www.admondlee.com/
+
+https://www.dezyre.com/article/data-cleaning-in-python/406
+
