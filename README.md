@@ -8,7 +8,7 @@ A starter kit for data scientists. Use to reference often used code snippets, do
 A basic structured workflow for Data Science Projects
 
 
-The zip file is a folder to be placed on your DESKTOP. 
+The zip file contains a folder to be placed on your DESKTOP. 
 
 
 The zip file contains the following:
