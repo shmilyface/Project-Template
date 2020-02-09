@@ -1,0 +1,33 @@
+KERAS
+
+https://keras.io/
+
+
+**************************************
+*                                    *
+*   use below for template, copy     *
+*   and paste as you find new models *
+*   and parameter combos that have   *
+*   worked before, and if possible   *
+*        reference material          *
+*                                    *
+**************************************
+
+Classification/Regression Model:
+#
+Parameters:
+#
+Notes:
+Reference:
+#
+Notes:
+Reference:
+#
+Notes:
+Reference:
+
+
+>>> NEED EXAMPLE <<<<
+
+
+
