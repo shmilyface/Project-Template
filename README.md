@@ -1,4 +1,10 @@
 # Project-Template
+
+A starter kit for data scientists. Use to reference often used code snippets, document models, parameters, resources. Download the zip for a starter kit folder you can use for each new project. Keep work separate!
+
+
+
+## About the zip file: 
 A basic structured workflow for Data Science Projects
 
 
